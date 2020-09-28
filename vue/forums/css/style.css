@@ -1,0 +1,296 @@
+html, body{
+  height: 100%;
+}
+
+.background_inscription_connexion
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-top: -20px;
+    margin-bottom: -100px;
+    background-color: rgba(128, 128, 128, 0.12);
+}
+#container
+{
+  min-height: 100%;
+    padding: 0;
+}
+
+
+/* -------- MESSAGE MAINTENANCE -------- */
+
+#msg_maintenance
+{
+    font-size: 18px;
+    padding: 100px 0;
+    margin: 45px 240px;
+}
+#msg_maintenance span
+{
+    font-size: 6em;
+    margin-bottom: 25px;
+    left: -10px;
+}
+
+
+/* -------- HEADER -------- */
+
+#block_header
+{
+    background-color: #222;
+}
+#block_header nav.navbar.navbar-inverse
+{
+    margin-bottom: 0;
+}
+#block_header h1
+{
+    color: rgb(0, 133, 173);
+}
+#login_connecter
+{
+    float: right;
+    top: 25px;
+    right: 43px;
+}
+#login_connecter img
+{
+    width: 40px;
+    height: 40px;
+}
+#login_connecter a.dropdown-toggle
+{
+    color: white;
+}
+#login_connecter .dropdown-menu
+{
+    left: -50px;
+}
+
+
+/* -------- ANIMATION HEADER -------- */
+
+/* The animation code */
+@keyframes etiquette_up
+{
+    0%   {bottom: -43px;height:35px;}
+    100% {bottom: 0; height: 70px;}
+}
+.etiquette_nav_anim_up
+{
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    background-color: rgb(0, 133, 173);
+    animation-name: etiquette_up;
+    animation-duration: 0.8s;
+    padding: 5px 8px;
+    height: 70px;
+    width: 100px;
+    margin-right: 15px;
+    text-align: center;
+}
+.fleche_down_glyphicon
+{
+    display: block;
+    position: relative;
+    color: white;
+    top: 8px;
+    font-size: 35px;
+}
+.etiquette_nav_anim_up a
+{
+   color: white;
+}
+.etiquette_nav_anim_before
+{
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    background-color: rgb(0, 133, 173);
+    padding: 5px 8px;
+    margin-right: 15px;
+    bottom: -43px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+}
+.etiquette_nav_anim_before a
+{
+   color: white;
+}
+#bande_nav_anim
+{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 133, 173);
+    height: 10px;
+    margin-top: -30px;
+}
+
+
+/* -------- NAV BAR -------- */
+
+#navbar_header a
+{
+    background-color: transparent;
+}
+#nav_connexion_inscription
+{
+    margin-top: -50px;
+}
+#nav_connexion_inscription a
+{
+	color: rgb(0, 133, 173);
+}
+#nav_connexion_inscription a:hover
+{
+    background-color: transparent;
+}
+nav.navbar.navbar-inverse
+{
+	border-radius: 0;
+	border: 0;
+    height: 80px;
+    background-color: #222;
+    background-image: none;
+}
+nav.navbar.navbar-inverse a
+{
+    text-decoration: none;
+}
+
+
+/* -------- CONNEXION/INSCRIPTION -------- */
+
+.form_group_inscription_connexion
+{
+    margin-bottom: 40px;
+}
+.form_group_inscription_connexion input
+{
+    height: 50px;
+}
+
+
+/* -------- DISCUSSIONS -------- */
+
+.hr_separation_filtrage_discussion
+{
+    border-color: rgb(214, 214, 214);
+}
+#block_discussion
+{
+    border: 5px solid rgb(0, 133, 173);
+}
+.header_discussion_message
+{
+    background-color:  rgb(0, 133, 173);
+    color: white;
+    border-radius: 0;
+}
+.liste_discussion
+{
+    background-color: rgba(229, 239, 245, 1);
+    border-top: 1px solid rgba(0, 109, 162, 0.29);
+    padding: 10px 10px;
+    line-height: 15px;
+    word-wrap: break-word;
+}
+.liste_discussion:hover
+{
+    background-color: rgb(214, 240, 255);
+}
+div.col-md-1.center_reponse
+{
+    padding-left: 42px;
+}
+div.col-md-1.center_vue
+{
+    padding-left: 24px;
+}
+.nav_pagination
+{
+    float: right;
+}
+.pagination
+{
+    margin: 0;
+}
+
+
+/* -------- MESSAGE DISCUSSION -------- */
+
+.retour_sujet
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.block_message
+{
+    border: 1px solid rgb(0, 133, 173);
+    margin: 20px 50px;
+    background-image: url('../img/fond.png');
+}
+.header_discussion_message span
+{
+    position: relative;
+    display: block;
+    margin-top: -22px;
+}
+.block_info_user_message
+{
+    padding: 10px 20px;
+}
+.block_info_user_message img
+{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.body_message
+{
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    background-color: white;
+}
+.body_message h3
+{
+    margin-top: 0;
+}
+.body_message p
+{
+    margin-bottom: 47px;
+}
+.footer_message
+{
+    background-color: rgba(226, 226, 226, 0.5);
+    padding: 3px 25px;
+}
+.footer_message a
+{
+    color: #4e4e4e;
+    font-weight: bold;
+    padding: 2px;
+    font-size: 12px;
+}
+
+
+/* -------- MESSAGE DISCUSSION -------- */
+
+#footer
+{
+    background-color: #222;
+    border-top: 10px solid rgb(0, 133, 173);
+    height: 100px;
+    margin-top: 100px;
+}
+#footer #copyright
+{
+    color: white;
+    margin-top: 30px;
+}
+#infos_login{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
