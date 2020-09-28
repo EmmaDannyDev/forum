@@ -1,0 +1,1 @@
+<?php include('../../vue/forums/maintenance.php'); ?>
